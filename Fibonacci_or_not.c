@@ -6,27 +6,27 @@ int main()
     if((num==0)||(num==1))
     {
         printf("
-%d is a fibonacci term",num);
+%d is a fabonacci term",num);
     }
     else
     {
         a=0;
         b=1;
         c=a+b;
-    }
-    while(c<num)
-    {
-        a=b;
-        b=c;
-        c=a+b;
-    }
-    if(c==num)
-    {
-        printf("True");
-    }
-    else
-    {
-        printf("False");
+        while(c<num)
+        {
+            a=b;
+            b=c;
+            c=a+b;
+        }
+        if(c==num)
+        {
+            printf("True");
+        }
+        else
+        {
+            printf("False");
+        }
     }
     return 0;
 }
