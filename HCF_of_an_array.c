@@ -14,7 +14,7 @@ int main()
     {
         if(arr[j]%gcd==0)
         {
-            j++;
+            j++;        
         }
         else
         {
